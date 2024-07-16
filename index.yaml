@@ -3,9 +3,9 @@ entries:
   cryostat:
   - apiVersion: v2
     appVersion: 4.0.0-dev
-    created: "2024-07-16T20:56:26.41656245Z"
+    created: "2024-07-16T21:01:39.391761932Z"
     description: Securely manage JFR recordings for your containerized Java workloads
-    digest: 0789628f4a734c496901935fa435e5667dcc36e5c6ce04c606fa8dd238ec5fa0
+    digest: aeec6bb6229f80d3dfb41658e09c6fc7801f4c657f5e3c89675e147be2bed135
     home: https://cryostat.io
     icon: https://raw.githubusercontent.com/cryostatio/cryostat-helm/main/docs/images/cryostat-icon.svg
     keywords:
@@ -150,6 +150,42 @@ entries:
     created: "2024-07-16T20:05:08.069303228Z"
     description: Securely manage JFR recordings for your containerized Java workloads
     digest: b4e964de6a0c2d72bb4dc6322583b9461235e446404de0237ea5f2d21af9e43b
+    home: https://cryostat.io
+    icon: https://raw.githubusercontent.com/cryostatio/cryostat-helm/main/docs/images/cryostat-icon.svg
+    keywords:
+    - flightrecorder
+    - java
+    - jdk
+    - jfr
+    - jmc
+    - missioncontrol
+    - monitoring
+    - profiling
+    - diagnostic
+    kubeVersion: '>= 1.25.0-0'
+    maintainers:
+    - name: The Cryostat Community
+      url: https://groups.google.com/g/cryostat-development
+    name: cryostat
+    sources:
+    - https://github.com/cryostatio/cryostat3
+    - https://github.com/cryostatio/cryostat-core
+    - https://github.com/cryostatio/cryostat-web
+    - https://github.com/cryostatio/jfr-datasource
+    - https://github.com/cryostatio/cryostat-grafana-dashboard
+    - https://github.com/cryostatio/cryostat-db
+    - https://github.com/cryostatio/cryostat-storage
+    - https://github.com/cryostatio/openshift-oauth-proxy
+    - https://github.com/oauth2-proxy/oauth2-proxy
+    type: application
+    urls:
+    - https://github.com/mwangggg/cryostat-helm/releases/download/v2.0.0-dev/cryostat-2.0.0-dev.tgz
+    version: 2.0.0-dev
+  - apiVersion: v2
+    appVersion: 4.0.0-dev
+    created: "2024-07-16T20:56:26.41656245Z"
+    description: Securely manage JFR recordings for your containerized Java workloads
+    digest: 0789628f4a734c496901935fa435e5667dcc36e5c6ce04c606fa8dd238ec5fa0
     home: https://cryostat.io
     icon: https://raw.githubusercontent.com/cryostatio/cryostat-helm/main/docs/images/cryostat-icon.svg
     keywords:
@@ -439,4 +475,4 @@ entries:
     urls:
     - https://github.com/cryostatio/cryostat-helm/releases/download/v0.1.1/cryostat-0.1.1.tgz
     version: 0.1.1
-generated: "2024-07-16T20:56:26.416645816Z"
+generated: "2024-07-16T21:01:39.391856407Z"
