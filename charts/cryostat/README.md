@@ -144,3 +144,4 @@ A Helm chart for deploying [Cryostat](https://cryostat.io/) on Kubernetes and Op
 | `pvc.selector`               | Selector for the persistentVolumeClaim. See: [Selector](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims)                                                                                                                                                           | `{}`                |
 | `pvc.storageClassName`       | The name of the StorageClass for the persistentVolumeClaim. See: [Class](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims)                                                                                                                                          | `undefined`         |
 
+*changing chart*
